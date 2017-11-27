@@ -20,8 +20,10 @@ To run the WSDM2014 workshop experiment,
    The input of this script can be download from http://cs-sys-1.uis.georgetown.edu/~jl1749/paper_runs/sigir2014_short/pdq.zip 
    It also contains some clicks counts from the qrel, however it is counted based on individual queries.
    
-7) run script pomdpv7.pl
+7) compile the evaluation.java file, which is one component used to calculate P@1 and nDCG@10 scores.
 
+8) run script pomdpv7.pl
 
+9) after pomdpv7.pl is executed, there will be a eval.sh file generated under current direcoty, run it to generate P@1 and nDCG@10 scores.
 
  
